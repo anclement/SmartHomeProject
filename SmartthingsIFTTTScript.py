@@ -10,7 +10,7 @@ if __name__ == '__main__':
         (output, err) = p.communicate()
         p_status = p.wait()
         if output:
-            print "Yay, the devine is connected to your network!"
+            print "Yay, the device is connected to your network!"
             response = requests.put(url)
             print(response.text)
 			
